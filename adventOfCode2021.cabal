@@ -1,0 +1,307 @@
+name:		adventOfCode2021
+version: 	1.0
+cabal-version:	>= 1.6
+description: 	Advent of Code Compilation
+license: 	AllRightsReserved
+license-file: 	LICENSE
+copyright:
+author:		Raul Gutierrez
+maintainer: 	r.gutierrez@upm.es
+build-type: 	Simple
+stability:
+homepage:
+package-url:
+synopsis:
+category:
+tested-with:
+source-repository head
+  type:     git
+  location: https://github.com/raulgut/advent-of-code-2021.git
+
+Executable one-one
+  buildable: True
+  main-is: one-one.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable one-two
+  buildable: True
+  main-is: one-two.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable two-one
+  buildable: True
+  main-is: two-one.hs
+  build-depends: base, parsec
+  hs-source-dirs: src
+
+Executable two-two
+  buildable: True
+  main-is: two-two.hs
+  build-depends: base, parsec
+  hs-source-dirs: src
+
+Executable three-one
+  buildable: True
+  main-is: three-one.hs
+  build-depends: base, containers
+  hs-source-dirs: src
+
+Executable three-two
+  buildable: True
+  main-is: three-two.hs
+  build-depends: base, containers
+  hs-source-dirs: src
+
+Executable four-one
+  buildable: True
+  main-is: four-one.hs
+  build-depends: base, parsec
+  hs-source-dirs: src
+
+Executable four-two
+  buildable: True
+  main-is: four-two.hs
+  build-depends: base, parsec
+  hs-source-dirs: src
+
+Executable five-one
+  buildable: True
+  main-is: five-one.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable five-two
+  buildable: True
+  main-is: five-two.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable six-one
+  buildable: True
+  main-is: six-one.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable six-two
+  buildable: True
+  main-is: six-two.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable seven-one
+  buildable: True
+  main-is: seven-one.hs
+  build-depends: base, parsec
+  hs-source-dirs: src
+
+Executable seven-two
+  buildable: True
+  main-is: seven-two.hs
+  build-depends: base, parsec
+  hs-source-dirs: src
+
+Executable eight-one
+  buildable: True
+  main-is: eight-one.hs
+  build-depends: base, mtl
+  hs-source-dirs: src
+
+Executable eight-two
+  buildable: True
+  main-is: eight-two.hs
+  build-depends: base, mtl
+  hs-source-dirs: src
+
+Executable nine-one
+  buildable: True
+  main-is: nine-one.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable nine-two
+  buildable: True
+  main-is: nine-two.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable ten-one
+  buildable: True
+  main-is: ten-one.hs
+  build-depends: base, vector
+  hs-source-dirs: src
+
+Executable ten-two
+  buildable: True
+  main-is: ten-two.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable eleven-one
+  buildable: True
+  main-is: eleven-one.hs
+  build-depends: base, matrix
+  hs-source-dirs: src
+
+Executable eleven-two
+  buildable: True
+  main-is: eleven-two.hs
+  build-depends: base, matrix
+  hs-source-dirs: src
+
+Executable twelve-one
+  buildable: True
+  main-is: twelve-one.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable twelve-two
+  buildable: True
+  main-is: twelve-two.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable thirteen-one
+  buildable: True
+  main-is: thirteen-one.hs
+  build-depends: base, split
+  hs-source-dirs: src
+
+Executable thirteen-two
+  buildable: True
+  main-is: thirteen-two.hs
+  build-depends: base, split
+  hs-source-dirs: src
+
+Executable fourteen-one
+  buildable: True
+  main-is: fourteen-one.hs
+  build-depends: base, parsec
+  hs-source-dirs: src
+
+Executable fourteen-two
+  buildable: True
+  main-is: fourteen-two.hs
+  build-depends: base, parsec
+  hs-source-dirs: src
+
+Executable fifteen-one
+  buildable: True
+  main-is: fifteen-one.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable fifteen-two
+  buildable: True
+  main-is: fifteen-two.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable sixteen-one
+  buildable: True
+  main-is: sixteen-one.hs
+  build-depends: base, parsec
+  hs-source-dirs: src
+
+Executable sixteen-two
+  buildable: True
+  main-is: sixteen-two.hs
+  build-depends: base, parsec
+  hs-source-dirs: src
+
+Executable seventeen-one
+  buildable: True
+  main-is: seventeen-one.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable seventeen-two
+  buildable: True
+  main-is: seventeen-two.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable eighteen-one
+  buildable: True
+  main-is: eighteen-one.hs
+  build-depends: base, parsec
+  hs-source-dirs: src
+
+Executable eighteen-two
+  buildable: True
+  main-is: eighteen-two.hs
+  build-depends: base, parsec
+  hs-source-dirs: src
+
+Executable nineteen-one
+  buildable: True
+  main-is: nineteen-one.hs
+  build-depends: base, parsec
+  hs-source-dirs: src
+
+Executable twenty-one
+  buildable: True
+  main-is: twenty-one.hs
+  build-depends: base, multiset
+  hs-source-dirs: src
+
+Executable twenty-two
+  buildable: True
+  main-is: twenty-two.hs
+  build-depends: base, multiset, pretty
+  hs-source-dirs: src
+
+Executable twentyone-one
+  buildable: True
+  main-is: twentyone-one.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable twentyone-two
+  buildable: True
+  main-is: twentyone-two.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable twentytwo-one
+  buildable: True
+  main-is: twentytwo-one.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable twentytwo-two
+  buildable: True
+  main-is: twentytwo-two.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable twentythree-one
+  buildable: True
+  main-is: twentythree-one.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable twentythree-two
+  buildable: True
+  main-is: twentythree-two.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable twentyfour-one
+  buildable: True
+  main-is: twentyfour-one.hs
+  build-depends: base, parsec
+  hs-source-dirs: src
+
+Executable twentyfour-two
+  buildable: True
+  main-is: twentyfour-two.hs
+  build-depends: base, parsec
+  hs-source-dirs: src
+
+Executable twentyfive-one
+  buildable: True
+  main-is: twentyfive-one.hs
+  build-depends: base
+  hs-source-dirs: src
