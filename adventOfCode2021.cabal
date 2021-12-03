@@ -45,13 +45,13 @@ Executable two-two
 Executable three-one
   buildable: True
   main-is: three-one.hs
-  build-depends: base, containers
+  build-depends: base
   hs-source-dirs: src
 
 Executable three-two
   buildable: True
   main-is: three-two.hs
-  build-depends: base, containers
+  build-depends: base
   hs-source-dirs: src
 
 Executable four-one
