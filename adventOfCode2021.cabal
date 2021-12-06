@@ -84,12 +84,6 @@ Executable six-one
   build-depends: base
   hs-source-dirs: src
 
-Executable six-two
-  buildable: True
-  main-is: six-two.hs
-  build-depends: base
-  hs-source-dirs: src
-
 Executable seven-one
   buildable: True
   main-is: seven-one.hs
