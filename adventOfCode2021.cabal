@@ -87,13 +87,13 @@ Executable six-one
 Executable seven-one
   buildable: True
   main-is: seven-one.hs
-  build-depends: base, parsec
+  build-depends: base
   hs-source-dirs: src
 
 Executable seven-two
   buildable: True
   main-is: seven-two.hs
-  build-depends: base, parsec
+  build-depends: base
   hs-source-dirs: src
 
 Executable eight-one
