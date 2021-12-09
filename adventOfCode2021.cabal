@@ -99,13 +99,13 @@ Executable seven-two
 Executable eight-one
   buildable: True
   main-is: eight-one.hs
-  build-depends: base, mtl
+  build-depends: base
   hs-source-dirs: src
 
 Executable eight-two
   buildable: True
   main-is: eight-two.hs
-  build-depends: base, mtl
+  build-depends: base
   hs-source-dirs: src
 
 Executable nine-one
