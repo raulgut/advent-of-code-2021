@@ -117,7 +117,7 @@ Executable nine-one
 Executable nine-two
   buildable: True
   main-is: nine-two.hs
-  build-depends: base
+  build-depends: base, mtl
   hs-source-dirs: src
 
 Executable ten-one
