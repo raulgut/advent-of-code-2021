@@ -10,6 +10,10 @@ import Text.Parsec.Prim (parse, (<|>))
 import Control.Monad (liftM, (>>=))
 import Data.List (maximum, minimum)
 
+-----------------------------------------------------------------------------
+-- Functions
+-----------------------------------------------------------------------------
+
 main = do
   args <- getArgs
   input <- readFile . head $ args
