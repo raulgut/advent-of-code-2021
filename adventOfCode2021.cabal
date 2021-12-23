@@ -234,6 +234,12 @@ Executable nineteen-one
   build-depends: base, parsec
   hs-source-dirs: src
 
+Executable nineteen-two
+  buildable: True
+  main-is: nineteen-two.hs
+  build-depends: base, parsec
+  hs-source-dirs: src
+
 Executable twenty-one
   buildable: True
   main-is: twenty-one.hs
