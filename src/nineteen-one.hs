@@ -63,6 +63,7 @@ parseCoordinates
        ; (try eof >> return '#') <|> (try (char '\r') >> newline) <|> try (char '\n') -- we can find the end of input at the end of the line
        ; return (x, y, z)
        }
+       
 -- | extracts a natural number with spaces
 natural :: Parser Int
 natural = do many space
